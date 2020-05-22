@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JobCandidates</name>
+    </assembly>
+    <members>
+        <member name="M:JobCandidates.Controllers.MatchingCandidateController.#ctor(JobCandidates.Core.Business_Interfaces.IJobService,JobCandidates.Core.Business_Interfaces.ICandidateService,JobCandidates.Core.Business_Interfaces.IFindCandidateService)">
+            <summary>
+            
+            </summary>
+            <param name="jobService"></param>
+            <param name="candidateService"></param>
+            <param name="findCandidateService"></param>
+        </member>
+        <member name="M:JobCandidates.Controllers.MatchingCandidateController.GetJobs">
+            <summary>
+            Get All Jobs
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:JobCandidates.Controllers.MatchingCandidateController.GetCandidates">
+            <summary>
+            Get Candidate List
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:JobCandidates.Controllers.MatchingCandidateController.GetQualifiedCandidates(System.Int32)">
+            <summary>
+            Find Qualified Candidates
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
